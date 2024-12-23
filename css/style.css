@@ -118,3 +118,11 @@ line-height: 1.5;
 #aboutme, #album{
     height: 100vh;
 }
+.input, footer form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer form{
+    gap: 20px;
+}
